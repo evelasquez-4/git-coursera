@@ -1,6 +1,8 @@
 class Test{
 	public static void main(String[] args){
 		System.out.println("Message from main repository");
+		messageSideA("Hola");
+		messageSideB("Mundo");
 	}
 	public static String messageSideB(String message){
 		System.out.println(message+"modified by B side");
