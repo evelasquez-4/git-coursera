@@ -3,6 +3,8 @@ class Test{
 		System.out.println("Message from main repository");
 	}
 	public static String messageSideB(String message){
+
+	public static String messageSideA(String message){
 		System.out.println(message);
 	}
 }
