@@ -4,10 +4,10 @@ class Test{
 		messageSideA("Hola");
 		messageSideB("Mundo");
 	}
-	public static String messageSideB(String message){
+	public static void messageSideB(String message){
 		System.out.println(message+"modified by B side");
 	}
-	public static String messageSideA(String message){
+	public static void messageSideA(String message){
 		System.out.println(message+" modified.");
 	}
 }
