@@ -6,6 +6,6 @@ class Test{
 		System.out.println(message);
 	}
 	public static String messageSideA(String message){
-		System.out.println(message);
+		System.out.println(message+" modified.");
 	}
 }
